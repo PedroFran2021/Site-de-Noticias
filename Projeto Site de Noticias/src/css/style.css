@@ -1,0 +1,155 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Preto mais escuro */
+    color: #f0f0f0; /* Cinza claro para o texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1, h2, h4, p, th, td {
+    color: #d4edda; /* Verde claro para títulos e alguns textos */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #a8dadc; /* Um tom de verde mais suave para subtítulos */
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #1e1e1e; /* Um tom de preto mais claro para o fundo da tabela */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 5em;
+    text-align: center;
+    border-bottom: 1px solid #333; /* Linhas separadoras sutis */
+}
+
+th {
+    background-color: #2e7d32; /* Verde escuro para o cabeçalho */
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+    text-align: center;
+    color: #8bc34a; /* Outro tom de verde para destaque */
+}body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Preto mais escuro */
+    color: #f0f0f0; /* Cinza claro para o texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1, h2, h4, p, th, td {
+    color: #d4edda; /* Verde claro para títulos e alguns textos */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #a8dadc; /* Um tom de verde mais suave para subtítulos */
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #1e1e1e; /* Um tom de preto mais claro para o fundo da tabela */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #333; /* Linhas separadoras sutis */
+}
+
+th {
+    background-color: #2e7d32; /* Verde escuro para o cabeçalho */
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+    text-align: center;
+    color: #8bc34a; /* Outro tom de verde para destaque */
+}
+
+body {
+    /* Outros estilos... */
+    background-image: url('C:\Workspace\Faculdade\Usabilidade Desenvolvimento Web\Projeto 01\img\fundo01.jpg'); /* Ajuste o caminho se necessário */
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Para não repetir a imagem */
+    background-attachment: fixed; /* Para manter a imagem fixa durante a rolagem */
+}
